@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Students Registration Form </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9167a9971.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1> STUDENT REGISTRATION SYSTEM </h1>
+        <nav>
+            <a href="#registration_form"> Registration Form </a>
+            <a href="#record_file"> Record File </a>
+            <a href="https://github.com/akumar230523"> GitHub <i class="fa-brands fa-square-github fa-xl"></i> </a>
+        </nav>
+    </header>
+    
+    <!-- Students Registration Form -->
+    <section id="registration_form">
+        <div class="us"></div>
+        <div class="ms">
+            <h3> Registration Form </h3>
+            <form id="studentform" >
+                <label for="id"> Student ID: </label>
+                <input type="number" name="id" id="id"><br>
+                <label for="name"> Name: </label>
+                <input type="text" name="name" id="name"><br>
+                <label for="contact"> Contact No: </label>
+                <input type="number" name="contact" id="contact"><br>
+                <label for="email"> Email Address: </label>
+                <input type="email" name="email" id="email"><br>
+                <button type="button" id="addbtn"> Add Student </button>
+            </form>
+        </div>
+        <div class="ds"></div>
+    </section>
+
+    <!-- Students Record File -->
+    <section id="record_file"> 
+        <div class="us"></div>  
+        <div class="ms">
+            <h3> Record File </h3>
+            <div id="studentlist">
+                <!-- Students Record -->
+                <p> <i> No records added.. .</i> </p>
+            </div>
+        </div>
+        <div class="ds"></div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
